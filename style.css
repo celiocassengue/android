@@ -13,8 +13,7 @@
 }
 ul,a,abbr{
     text-decoration: none;
-    list-style: none;
-    display: inline;
+    list-style: none;   
 }
 p{
     border: none;
