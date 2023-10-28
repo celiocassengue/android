@@ -5,15 +5,13 @@
     format(opentype);
 }
 /*RESET CSS*/
-/* 1em = 16px */
-
 *{
     margin:0;
     padding:0;
     border:none;
     box-sizing:border-box;
 }
-ul,a{
+ul,a,abbr{
     text-decoration: none;
     list-style: none;
     display: inline;
