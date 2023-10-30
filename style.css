@@ -15,6 +15,10 @@ ul,a,abbr{
     text-decoration: none;
     list-style: none;   
 }
+abbr{
+    font-family: verdana,sans-serif;
+    font-weight: bold;
+}
 p{
     border: none;
     padding: 0.35em;
