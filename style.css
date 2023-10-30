@@ -19,6 +19,14 @@ abbr{
     font-family: verdana,sans-serif;
     font-weight: bold;
 }
+.repositorio{
+    color: white;
+}
+.repositorio:hover{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
 p{
     border: none;
     padding: 0.35em;
