@@ -181,5 +181,9 @@ article>p{
     padding: 0 1.5em;
 }
 strong a{
+    color:rgba(7, 250, 7, 0.733);
     background-color:  rgb(2, 165, 2);
+}
+strong a:hover{
+    background-color: rgba(54, 253, 54, 0.733);
 }
