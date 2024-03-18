@@ -2,7 +2,7 @@
 @media all{
     @font-face{
         font-family:android;
-        src:url("fontes/idroid.otf")
+        src:url("../fontes/idroid.otf")
         format(opentype);
     }
     /*RESET CSS*/
