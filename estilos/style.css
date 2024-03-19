@@ -5,6 +5,41 @@
         src:url("../fontes/idroid.otf")
         format(opentype);
     }
+    @media screen and (max-width:768px){
+        li{
+            padding-top: 7px;
+            text-align: center;
+            width: 100vw;
+            height: 40px;
+            background-color: silver;
+            color: black;
+            display: block;
+        }
+        #icon{
+            display: block;
+            text-align: center;
+            background-color: rgb(70, 69, 69);
+            color: white;
+        }
+    }
+    li{
+        padding-top: 7px;
+        text-align: center;
+        width: 100px;
+        height: 40px;
+        border-radius:4px;
+        margin: 3px;
+        background-color: silver;
+        color: black;
+        display: inline-block;
+    }
+    li:hover{
+        border: solid white;
+        transform: translate(-3px, 3px);
+    }
+    #icon{
+        display: none;
+    }
     /*RESET CSS*/
     *{
         margin:0;

@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tecnologia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/desktop.css">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
-<body>
+<body onresize="tamanho()">
     <header>
         <h1>CURIOSIDADES DE TECNOLOGIA</h1>
         <P>Tudo aquilo que você quis saber sobre o mundo <br> tech, em um único lugar</P>
-        <nav>
+        <span id="icon" class="material-symbols-outlined" onclick="clickMenu()">&#xe5d2;</span>
+        <nav id="menu">
             <a href="#" id="link1">Home</a>
             <a href="#" id="link2">Notícias</a>
             <a href="#" id="link3">Curiosidades</a>
@@ -115,5 +117,23 @@
     </div>
     </main>
     <p class="end">Site criado por <a href="https://github.com/celiocassengue" target="_blank" class="repositorio">Célio Cassengue</a></p>
+    <script>
+        function clickMenu() {
+  if (menu.style.display == 'block'){
+    menu.style.display = 'none'
+  }
+  else{
+    menu.style.display = 'block'
+  }
+}
+        function tamanho() {
+    if(window.innerWidth >= 768){
+        menu.style.display = 'block'
+    }
+    else{
+        menu.style.display = 'none'
+    }
+}
+    </script>
 </body>
 </html>
