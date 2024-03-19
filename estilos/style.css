@@ -65,25 +65,13 @@
         margin-top:20px;
         font-size: 1em;
     }
-    nav>a{
+    #menu>li>a{
         color: white;
         padding: 5px;
         font-size: 1em;
         font-weight: bolder;
     }
-    #link1:hover{
-        text-decoration: underline;
-        background-color: rgba(54, 253, 54, 0.733);
-    }
-    #link2:hover{
-        text-decoration: underline;
-        background-color: rgba(54, 253, 54, 0.733);
-    }
-    #link3:hover{
-        text-decoration: underline;
-        background-color: rgba(54, 253, 54, 0.733);
-    }
-    #link4:hover{
+    #menu>li:hover{
         text-decoration: underline;
         background-color:rgba(54, 253, 54, 0.733);
     }
