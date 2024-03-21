@@ -1,22 +1,24 @@
 @charset "utf-8";
 /* Mobile First */
 @media screen and (max-width:768px){
-    /* Reset CSS*/
-    *{
-        list-style: none;
-        text-decoration: none;
+    div>#img-dan-droid{
+        background-image: url("../imagens/dan-droids-pq.png");
     }
     #menu>li>a{
         padding-top: 7px;
         text-align: center;
         height: 40px;
-        background-color: silver;
+        background-color:rgb(1, 82, 1);
         display:block;
     }
+    #menu>li>a:hover{
+        background-color:rgba(54, 253, 54, 0.733);
+    }
     #icon{
+        cursor: pointer;
         display: block;
         text-align: center;
-        background-color: rgb(70, 69, 69);
+        background-color: rgb(1, 82, 1);
         color: white;
     }
 }

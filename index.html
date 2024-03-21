@@ -7,21 +7,23 @@
     <title>Tecnologia</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="estilos/mobile'''''''.css">
+    <link rel="stylesheet" href="estilos/mobile.css">
+    <link rel="stylesheet" href="estilos/menu.css">
+    <link rel="stylesheet" href="estilos/reset.css">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 <body onresize="tamanho()">
     <header>
         <h1>CURIOSIDADES DE TECNOLOGIA</h1>
         <P>Tudo aquilo que você quis saber sobre o mundo <br> tech, em um único lugar</P>
-        <span id="icon" class="material-symbols-outlined" onclick="clickMenu()">&#xe5d2;</span>
+    </header>
+    <span id="icon" class="material-symbols-outlined" onclick="clickMenu()">&#xe5d2;</span>
         <menu id="menu">
             <li><a href="#">Home</a></li>
             <li><a href="#">Notícias</a></li>
             <li><a href="#">Curiosidades</a></li>
             <li><a href="#">Fale conosco</a></li>
         </menu>
-    </header>
     <main>
     <div class="bg-white">
         <h1>HISTÓRIA DO MASCOTE DO ANDROID</h1>
@@ -38,10 +40,8 @@
             <strong><a href="https://androidcommunity.com/dan-morrill-shows-us-the-android-mascot-that-almost-was-20130103/" target="_blank" rel="_exteranl">Dan Morrill</a></strong>. Ele conta que abriu o <strong><a href="https://inkscape.org/" target="_blank" rel="_exteranl">Inkscape</a></strong>(software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personalizar o sistema apenas para a sua equipe, não existia nehuma solicitação da empresa para a criação de um
             mascote.
         </P>
-        <picture class="centro">
-            <source media="(max-width:800px)" srcset="imagens/dan-droids-pq.png" type="image/png"> 
-            <img src="imagens/dan-droids.png" alt="imagem grande">
-        </picture>
+        <div id="img-dan-droid">
+        </div>
         <p>
             Essa primeira versão bizarra até foi batizada en homenagem ao seu criador:seriam os 
             <strong>Dandroids</strong>.
@@ -52,10 +52,7 @@
             ilustradora Russa <strong><a href="https://www.irinablok.com/android" target="_blank">Irina Blok</a></strong>, também funcionária do Google, ficou com a missão de
             representar o pequeno robô de uma maneira mais agradável. 
         </p>
-        <picture class="centro">
-            <source media="(max-width:800px)" srcset="imagens/irina-blok-pq.jpg">
-            <img src="imagens/irina-blok.jpg" alt="imagem grande">
-        </picture>
+        <img id="img-irina" src="" alt="Irina Blok">
         <p>
             A ideia principal da Irina era representar tudo graficamente  com poucos traços e de forma mais chapada.
             O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o <strong>Bugdroid</strong>,
