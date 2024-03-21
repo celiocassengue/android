@@ -91,6 +91,20 @@
         display: block;
         margin: auto;
     }
+    #img-dan-droid{
+        background: url("../imagens/dan-droids.png") no-repeat;
+        height:40vh;
+        width: auto;
+        background-size: auto;
+        background-position: center center;
+    }
+    #img-irina{
+        background: url("../imagens/irina-blok.jpg") no-repeat;
+        height:40vh;
+        width: auto;
+        background-size: auto;
+        background-position: center center;
+    }
     #iframe{
             background-color: rgb(1, 82, 1);
     }
@@ -118,6 +132,9 @@
         justify-content: space-around;
         margin: 0;
         width: calc(100% - 2em);
+    }
+    .flex abbr{
+        cursor: pointer;
     }
     #extra > article > div {
         width: auto;

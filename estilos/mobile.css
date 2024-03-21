@@ -1,8 +1,19 @@
 @charset "utf-8";
 /* Mobile First */
 @media screen and (max-width:768px){
-    div>#img-dan-droid{
-        background-image: url("../imagens/dan-droids-pq.png");
+    #img-dan-droid{
+        background: url("../imagens/dan-droids-pq.png") no-repeat;
+        height:80vh;
+        width: auto;
+        background-size:contain;
+        background-position: center center;
+    }
+    #img-irina{
+        background: url("../imagens/irina-blok-pq.jpg") no-repeat;
+        height:40vh;
+        width: auto;
+        background-size: auto;
+        background-position: center center;
     }
     #menu>li>a{
         padding-top: 7px;
